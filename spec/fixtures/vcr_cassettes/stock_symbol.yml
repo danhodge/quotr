@@ -1,0 +1,54 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://ichart.finance.yahoo.com/table.csv?a=03&b=13&c=2012&d=03&e=20&f=2012&g=d&ignore=.csv&s=f
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept:
+      - ! '*/*'
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Sat, 12 May 2012 02:16:46 GMT
+      P3p:
+      - policyref="http://info.yahoo.com/w3c/p3p.xml", CP="CAO DSP COR CUR ADM DEV
+        TAI PSA PSD IVAi IVDi CONi TELo OTPi OUR DELi SAMi OTRi UNRi PUBi IND PHY
+        ONL UNI PUR FIN COM NAV INT DEM CNT STA POL HEA PRE LOC GOV"
+      Vary:
+      - Accept-Encoding
+      Connection:
+      - close
+      Transfer-Encoding:
+      - chunked
+      Content-Type:
+      - text/csv
+      Cache-Control:
+      - private
+    body:
+      encoding: US-ASCII
+      string: ! 'Date,Open,High,Low,Close,Volume,Adj Close
+
+        2012-04-20,11.71,11.72,11.39,11.41,52631000,11.36
+
+        2012-04-19,11.81,11.88,11.58,11.66,48169200,11.61
+
+        2012-04-18,11.81,11.85,11.72,11.79,32314000,11.74
+
+        2012-04-17,11.98,12.00,11.88,11.91,35981200,11.86
+
+        2012-04-16,12.01,12.05,11.83,11.88,31903500,11.83
+
+        2012-04-13,11.98,12.03,11.84,11.92,39675000,11.87
+
+'
+    http_version: !!null 
+  recorded_at: Sat, 12 May 2012 02:16:46 GMT
+recorded_with: VCR 2.1.1

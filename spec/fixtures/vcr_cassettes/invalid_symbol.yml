@@ -1,0 +1,73 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://ichart.finance.yahoo.com/table.csv?a=03&b=13&c=2012&d=03&e=20&f=2012&g=d&ignore=.csv&s=NACHOS
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept:
+      - ! '*/*'
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 404
+      message: Not Found
+    headers:
+      Date:
+      - Sat, 12 May 2012 02:16:46 GMT
+      P3p:
+      - policyref="http://info.yahoo.com/w3c/p3p.xml", CP="CAO DSP COR CUR ADM DEV
+        TAI PSA PSD IVAi IVDi CONi TELo OTPi OUR DELi SAMi OTRi UNRi PUBi IND PHY
+        ONL UNI PUR FIN COM NAV INT DEM CNT STA POL HEA PRE LOC GOV"
+      Vary:
+      - Accept-Encoding
+      Connection:
+      - close
+      Transfer-Encoding:
+      - chunked
+      Content-Type:
+      - text/html; charset=iso-8859-1
+      Cache-Control:
+      - private
+    body:
+      encoding: US-ASCII
+      string: ! "<!doctype html public \"-//W3C//DTD HTML 4.01//EN\" \"http://www.w3.org/TR/html4/strict.dtd\">\n<html><head><title>Yahoo!
+        - 404 Not Found</title><style>\n/* nn4 hide */ \n/*/*/\nbody {font:small/1.2em
+        arial,helvetica,clean,sans-serif;font:x-small;text-align:center;}table {font-size:inherit;font:x-small;}\nhtml>body
+        {font:83%/1.2em arial,helvetica,clean,sans-serif;}input {font-size:100%;vertical-align:middle;}p,
+        form {margin:0;padding:0;}\np {padding-bottom:6px;margin-bottom:10px;}#doc
+        {width:48.5em;margin:0 auto;border:1px solid #fff;text-align:center;}#ygma
+        {text-align:right;margin-bottom:53px}\n#ygma img {float:left;}#ygma div {border-bottom:1px
+        solid #ccc;padding-bottom:8px;margin-left:152px;}#bd {clear:both;text-align:left;width:75%;margin:0
+        auto 20px;}\nh1 {font-size:135%;text-align:center;margin:0 0 15px;}legend
+        {display:none;}fieldset {border:0 solid #fff;padding:.8em 0 .8em 4.5em;}\nform
+        {position:relative;background:#eee;margin-bottom:15px;border:1px solid #ccc;border-width:1px
+        0;}\n#s1p {width:15em;margin-right:.1em;}\nform span {position:absolute;left:70%;top:.8em;}form
+        a {font:78%/1.2em arial;display:block;padding-left:.8em;white-space:nowrap;background:
+        url(http://l.yimg.com/a/i/s/bullet.gif) no-repeat left center;} \nform .sep
+        {display:none;}.more {text-align:center;}#ft {padding-top:10px;border-top:1px
+        solid #999;}#ft p {text-align:center;font:78% arial;}\n/* end nn4 hide */\n</style></head>\n<body><div
+        id=\"doc\">\n<div id=\"ygma\"><a href=\"http://us.rd.yahoo.com/404/*http://www.yahoo.com\"><img\nsrc=http://l.yimg.com/a/i/yahoo.gif\nwidth=147
+        height=31 border=0 alt=\"Yahoo!\"></a><div><a\nhref=\"http://us.rd.yahoo.com/404/*http://www.yahoo.com\">Yahoo!</a>\n
+        - <a href=\"http://us.rd.yahoo.com/404/*http://help.yahoo.com\">Help</a></div></div>\n<div
+        id=\"bd\"><h1>Sorry, the page you requested was not found.</h1>\n<p>Please
+        check the URL for proper spelling and capitalization. If\nyou're having trouble
+        locating a destination on Yahoo!, try visiting the\n<strong><a\nhref=\"http://us.rd.yahoo.com/404/*http://www.yahoo.com\">Yahoo!
+        home\npage</a></strong> or look through a list of <strong><a\nhref=\"http://us.rd.yahoo.com/404/*http://docs.yahoo.com/docs/family/more/\">Yahoo!'s\nonline
+        services</a></strong>. Also, you may find what you're looking for\nif you
+        try searching below.</p>\n<form name=\"s1\" action=\"http://us.rd.yahoo.com/404/*-http://search.yahoo.com/search\"><fieldset>\n<legend><label
+        for=\"s1p\">Search the Web</label></legend>\n<input type=\"text\" size=30
+        name=\"p\" id=\"s1p\" title=\"enter search terms here\">\n<input type=\"submit\"
+        value=\"Search\">\n<span><a href=\"http://us.rd.yahoo.com/404/*http://search.yahoo.com/search/options?p=\">advanced
+        search</a> <span class=sep>|</span> <a href=\"http://us.rd.yahoo.com/404/*http://buzz.yahoo.com\">most
+        popular</a></span>\n</fieldset></form>\n<p class=\"more\">Please try <strong><a\nhref=\"http://us.rd.yahoo.com/404/*http://help.yahoo.com\">Yahoo!\nHelp
+        Central</a></strong> if you need more assistance.</p>\n</div><div id=\"ft\"><p>Copyright
+        &copy; 2012 Yahoo! Inc.\nAll rights reserved. <a\nhref=\"http://us.rd.yahoo.com/404/*http://privacy.yahoo.com\">Privacy\nPolicy</a>
+        - <a\nhref=\"http://us.rd.yahoo.com/404/*http://docs.yahoo.com/info/terms/\">Terms\nof
+        Service</a></p></div>\n</div></body></html>\n"
+    http_version: !!null 
+  recorded_at: Sat, 12 May 2012 02:16:46 GMT
+recorded_with: VCR 2.1.1
