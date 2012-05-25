@@ -5,13 +5,11 @@ require "quotr/version"
 Gem::Specification.new do |s|
   s.name        = "quotr"
   s.version     = Quotr::VERSION
-  s.authors     = ["TODO: Write your name"]
-  s.email       = ["TODO: Write your email address"]
-  s.homepage    = ""
-  s.summary     = %q{TODO: Write a gem summary}
-  s.description = %q{TODO: Write a gem description}
-
-  s.rubyforge_project = "quote"
+  s.authors     = ["Dan Hodge"]
+  s.email       = ["danhodge@gmail.com"]
+  s.homepage    = "https://github.com/danhodge/quotr"
+  s.summary     = %q{Retrieves historical stock and mutual fund quotes}
+  s.description = %q{Retrieves historical stock and mutual fund quotes}
 
   s.files         = `git ls-files`.split("\n")
   s.test_files    = `git ls-files -- {test,spec,features}/*`.split("\n")
