@@ -6,7 +6,7 @@ describe Quotr do
     let(:sym) { :vfinx }
     let(:invalid_sym) { "NACHOS" }
     let(:date)   { Date.new(2012, 4, 20) }
-    let(:future_date) { Date.today + 10 }
+    let(:future_date) { Date.new(2112, 5, 24) }
     let(:expected_close) { BigDecimal("127.14") }
 
     subject { Quotr }

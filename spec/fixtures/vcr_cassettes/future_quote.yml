@@ -2,7 +2,7 @@
 http_interactions:
 - request:
     method: get
-    uri: http://ichart.finance.yahoo.com/table.csv?a=04&b=14&c=2012&d=04&e=21&f=2012&g=d&ignore=.csv&s=vfinx
+    uri: http://ichart.finance.yahoo.com/table.csv?a=04&b=17&c=2112&d=04&e=24&f=2112&g=d&ignore=.csv&s=vfinx
     body:
       encoding: US-ASCII
       string: ''
@@ -17,7 +17,7 @@ http_interactions:
       message: Not Found
     headers:
       Date:
-      - Sat, 12 May 2012 02:16:45 GMT
+      - Fri, 25 May 2012 02:37:27 GMT
       P3p:
       - policyref="http://info.yahoo.com/w3c/p3p.xml", CP="CAO DSP COR CUR ADM DEV
         TAI PSA PSD IVAi IVDi CONi TELo OTPi OUR DELi SAMi OTRi UNRi PUBi IND PHY
@@ -69,5 +69,5 @@ http_interactions:
         - <a\nhref=\"http://us.rd.yahoo.com/404/*http://docs.yahoo.com/info/terms/\">Terms\nof
         Service</a></p></div>\n</div></body></html>\n"
     http_version: !!null 
-  recorded_at: Sat, 12 May 2012 02:16:46 GMT
+  recorded_at: Fri, 25 May 2012 02:37:27 GMT
 recorded_with: VCR 2.1.1
