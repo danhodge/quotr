@@ -24,3 +24,7 @@ why?
 ----
 
 I couldn't find a gem that could retrieve historical quotes for stocks AND mutual funds
+
+license
+-------
+MIT license &copy; 2012 Dan Hodge
